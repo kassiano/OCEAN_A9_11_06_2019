@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item   android:id="@+id/menu_thread"
+            android:title="Thread" />
+
+    <item   android:id="@+id/menu_task"
+            android:title="Async Task" />
+
+    <item   android:id="@+id/menu_anko"
+            android:title="Anko" />
+
+
+    <item android:title="Deletar"
+          android:icon="@android:drawable/ic_delete"
+          app:showAsAction="always"
+          android:id="@+id/menu_delete"
+    />
+</menu>
